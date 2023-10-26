@@ -23,7 +23,7 @@ const db = mysql.createConnection({
 
 // Creamos una constante que guarda el Token de nuestro Bot de Telegram que previamente hemos creado desde el bot @BotFather
 const token = 'xxxxx';
-
+//6726849282:AAHTRlvjPJKhuayX9w3bIYjX5kCMKxG3FR8
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, {polling: true});
 
